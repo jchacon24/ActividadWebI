@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        ETIQUETAS
+        CSS - .clase (gerarquia)
+        JS - #id (gerarquia es más grande)
+        #h1{
+            background-color: blue;
+        }
+        h1{
+            background-color: aquamarine;
+        }
+    -->
+    <style> 
+        .menu{
+            background-color: blueviolet;
+        }       
+        .titulo{
+            background-color: yellow;
+        }
+        li{
+            background-color: brown;
+        }
+        ul{
+            background-color: black;
+            color: aliceblue;
+        }
+        a{
+            background-color: rgb(128, 0, 0);
+        }
+        i{
+            background-color: aqua;
+        }
+    </style>
+    <header>
+        <h1 id="h1" class="titulo">Sitio web de Productos Deportivos</h1>
+        <h1 id="h1" class="titulo">Otro titulo</h1>
+        <!--Menú de navegación, logos, registro de usuario-->
+        <nav class="menu"><!--Menú de navegación-->
+            <li>
+                <!--<ul>Elemento1</ul>Lista desordenadas-->
+                <!--<ol>Elemento2</ol>Lista ordenadas-->
+                <ul><a href="https://www.google.com">Google</a></ul>
+                <ul><a href="./test.html">Test</a></ul>
+                <ul><a href="./ejemplo1/pagina.html">Página</a></ul>
+                <ul><a href="#seccion4">Enlace4</a></ul>
+                <ul><a href="#seccion5">Enlace5</a></ul>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion1"><i>Lorem</i> ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consectetur quaerat, ipsum perspiciatis est dolore maiores voluptas aliquid 
+            facere rem enim deleniti earum commodi quas velit tempore, doloribus modi 
+            illum corrupti.</section>
+        <section id="seccion2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consectetur quaerat, ipsum perspiciatis est dolore maiores voluptas aliquid 
+            facere rem enim deleniti earum commodi quas velit tempore, doloribus modi 
+            illum corrupti.</section>
+        <section id="seccion3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consectetur quaerat, ipsum perspiciatis est dolore maiores voluptas aliquid 
+            facere rem enim deleniti earum commodi quas velit tempore, doloribus modi 
+            illum corrupti.</section>
+        <section id="seccion4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consectetur quaerat, ipsum perspiciatis est dolore maiores voluptas aliquid 
+            facere rem enim deleniti earum commodi quas velit tempore, doloribus modi 
+            illum corrupti.</section>
+        <section id="seccion5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consectetur quaerat, ipsum perspiciatis est dolore maiores voluptas aliquid 
+            facere rem enim deleniti earum commodi quas velit tempore, doloribus modi 
+            illum corrupti.
+            <article>
+                <p>
+                    Etiqueta texto 
+                </p>
+                <em>Soy para cursiva</em>
+                <b>Negrita</b>
+                <small>Soy una explicación</small>
+                <s>Texto tachado</s>
+                <cite>Una cita</cite>
+                <hr>
+                <pre>
+                    const calculePower = (num1) =>{
+                        return Math.pow(Num1, 2);
+                    }
+                </pre>
+            </article>
+        </section>
+    </main>
+    <aside>
+        Etiqueta para información externa
+    </aside>
+    <footer>
+        <div>Derechos reservados</div>
+    </footer>
+</body>
+</html>
